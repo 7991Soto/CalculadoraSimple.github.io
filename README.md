@@ -1,7 +1,6 @@
 # CalculadoraSimple.github.io
 CalculadoraAsoto
-Para criar uma calculadora usando HTML, CSS e JavaScript, primeiro criamos uma estrutura HTML básica.
-Usamos divs para criar o layout da calculadora e botões para os números e operações. Em seguida, adicionamos
-cores e estilos à nossa calculadora com CSS. Por fim, adicionamos a lógica da calculadora com JavaScript.
-Usamos funções para acompanhar quais botões foram clicados e definir qual operação
-
+Esta calculadora simple foi criada usando HTML e CSS. Primeiro, criou-se uma estrutura
+de botões para a calculadora, usando elementos HTML e classes CSS para definir a aparência.
+Em seguida, adicionou-se o JavaScript, usando o addEventListener para controlar os eventos de clique
+em cada botão. Por fim, foi criada uma função "calcular" para avaliar a expressão fornecida e retornar o resultado.
