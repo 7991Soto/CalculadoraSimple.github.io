@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora window</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="Styles.css">
     <script src="scripts.js" defer></script>
+    
 </head>
 <body>
     <div id="calc">
-        <h3>Calculadora</h3>
+        <h3 class="calpisca">Faça suas operações</h3>
+
+        <style>
+            .calpisca {
+                animation: blink 2s infinite;
+
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+        </style>
         <div id="operations">
             <div id="previous-operation"></div>
             <div id="current-operation"></div>
@@ -39,6 +60,6 @@
                 <h6>ASoto</h6>
             </div>
         </div>
-    </div>    
+    </div>
 </body>
 </html>
